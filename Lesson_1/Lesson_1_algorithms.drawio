@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-09-19T22:25:15.065Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 YaBrowser/20.8.3.115 Yowser/2.5 Safari/537.36" etag="R5m2U4mmNWsNeE02SPfu" compressed="false" version="13.7.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-09-19T22:37:36.640Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 YaBrowser/20.8.3.115 Yowser/2.5 Safari/537.36" etag="m60I8-VYRVJCCxckCzNh" compressed="false" version="13.7.3" type="github" pages="2">
   <diagram id="BLRAGRiclhUCpPVUP0Xi" name="task_1">
-    <mxGraphModel dx="2014" dy="1149" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="664" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,10 +34,37 @@
     </mxGraphModel>
   </diagram>
   <diagram id="LcXLevtG_EvTB7wcXRmx" name="task_2">
-    <mxGraphModel dx="2014" dy="1149" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="664" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="VOWLj4hI3M0EqqpjqD_6-0" />
         <mxCell id="VOWLj4hI3M0EqqpjqD_6-1" parent="VOWLj4hI3M0EqqpjqD_6-0" />
+        <mxCell id="E07SHd_wGsATNv3SDeH1-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="VOWLj4hI3M0EqqpjqD_6-1" source="E07SHd_wGsATNv3SDeH1-0" target="E07SHd_wGsATNv3SDeH1-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E07SHd_wGsATNv3SDeH1-0" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="VOWLj4hI3M0EqqpjqD_6-1">
+          <mxGeometry x="354" y="100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="E07SHd_wGsATNv3SDeH1-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="VOWLj4hI3M0EqqpjqD_6-1" source="E07SHd_wGsATNv3SDeH1-1" target="E07SHd_wGsATNv3SDeH1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E07SHd_wGsATNv3SDeH1-1" value="x1, y1, x2, y2" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="VOWLj4hI3M0EqqpjqD_6-1">
+          <mxGeometry x="354" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QIt6FsnREu_PJBucaJJU-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="VOWLj4hI3M0EqqpjqD_6-1" source="E07SHd_wGsATNv3SDeH1-3" target="QIt6FsnREu_PJBucaJJU-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E07SHd_wGsATNv3SDeH1-3" value="k = (y1 - y2)/(x1 - x2),&lt;br&gt;b = y1 - k*x1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="VOWLj4hI3M0EqqpjqD_6-1">
+          <mxGeometry x="354" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QIt6FsnREu_PJBucaJJU-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="VOWLj4hI3M0EqqpjqD_6-1" source="QIt6FsnREu_PJBucaJJU-1" target="QIt6FsnREu_PJBucaJJU-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QIt6FsnREu_PJBucaJJU-1" value="k, b" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="VOWLj4hI3M0EqqpjqD_6-1">
+          <mxGeometry x="354" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QIt6FsnREu_PJBucaJJU-3" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="VOWLj4hI3M0EqqpjqD_6-1">
+          <mxGeometry x="354" y="630" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
